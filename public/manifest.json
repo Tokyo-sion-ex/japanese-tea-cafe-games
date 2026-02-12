@@ -1,0 +1,15 @@
+{
+  "short_name": "和紅茶カフェ",
+  "name": "和紅茶・日本茶カフェ経営ゲーム",
+  "icons": [
+    {
+      "src": "assets/images/tea-cup.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6b8e4c",
+  "background_color": "#f5f0e1"
+}
