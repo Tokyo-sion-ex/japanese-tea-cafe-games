@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kaisei HarunoUmi', serif;
+  background: linear-gradient(135deg, #f5f0e1 0%, #e8dcc0 100%);
+  color: #3e3a34;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 248, 235, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(107, 142, 76, 0.1);
+}
+
+.button {
+  background: #6b8e4c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(107, 142, 76, 0.3);
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #d4c8a9;
+}
+
+.tea-field {
+  background: url('/assets/images/tea-field.jpg') center/cover;
+  border-radius: 15px;
+  padding: 30px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
